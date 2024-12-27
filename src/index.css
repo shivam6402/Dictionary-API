@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    /* margin:0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing:antialiased;
+    -moz-osx-font-smoothing:grayscale;
+    border: 1px solid red; */
+    font-family: Poppins;
+}
+
+code{
+    /* font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace; */
+}
+/*
+.app h1{
+    text-align: center;
+    background-color: rgb(0,36,36);
+    color: white;
+    padding: 33px;
+    margin-top: 0px;
+}
+
+
+.container{
+    width: 600px;
+    min-height: 100px;
+    margin: auto;
+    background-color: #fff;
+
+    box-shadow: 0px 4px 4px 4px rgb(226,226,226);
+    padding: 22px;
+}
+
+.container .datas{
+    margin-left: 22px;
+}
+
+.searchBar{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    justify-content: center;
+}
+.searchBar input{
+    width:400px ;
+    padding: 11px;
+    font-size: 22px;
+    border: none;
+    border-radius: 4px;
+    background-color: rgb(237,237,238);
+}
+
+.searchBar button{
+    width: 90px;
+    background-color: rgb(0,148,148);
+    color: white;
+    font-size: 22px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.datas button{
+    margin-top:10px ;
+    background-color: rgb(0,148,148);
+    color: white;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 4px;
+} */
+
+.hero{
+    background: url('../src/assets/images/hero2.jpg') no-repeat;
+    background-size: cover;
+    font-family: Poppins;
+}
+.container{
+    
+}
+.searchBar{
+    margin-left: 30px;
+    font-family: Poppins;
+}
+.datas{
+    margin-left: 20px;
+}
+
+.searchBar button{
+    width: 90px;
+    /* background-color: rgb(0,148,148); */
+    background-color: #D5e76c;
+    color: white;
+    font-size: 22px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 11px;
+}
+.datas button{
+    margin-top:10px ;
+    /* background-color: rgb(0,148,148); */
+    background-color: #D5e76c;
+    color: white;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+.searchBar input{
+    /* width:400px ; */
+    padding: 11px;
+    font-size: 22px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(237,237,238);
+}
+
+.card img {
+    border-radius: 12px;
+  }
+
+  .Products{
+    font-family: Poppins;
+  }
+
+.testimonial,.learning {
+    background: linear-gradient(135deg, #88e1a8, #d4f081);
+    margin: 0;
+    font-family: Poppins;
+}
+.testimonial .text{
+    color: #068267e0;
+}
+
+.card {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.15);
+}
+
+.gradient-card {
+    background: linear-gradient(135deg, #03604c, #2af559);
+    color: #ffffff;
+}
+
+.card img {
+    border-radius: 12px;
+  }
+  .info{
+    font-family: Poppins;
+  }
+
+.info .btn{
+      background-color: #c4f58d;
+      font-weight: bold;
+      color: #000;
+      border-radius: 25px;
+      text-transform: uppercase;
+       /* padding: 10px 20px; */
+       width: 30%;
+  }
+.btn:hover {
+    background-color: #a8e075;
+    color: #fff;
+  }
+
+  .element{
+    line-height: 30px;
+    font-family: Poppins;
+}
+.quote{
+   color: #b4d43b; 
+}
+.element .btn1{
+    background-color: #b4d43b;
+font-weight: bold;
+color: #000;
+border-radius: 25px;
+text-transform: uppercase;
+
+}
+.element .btn1:hover {
+background-color: #b4d43b;
+color: #fff;
+}
+.element_inner_3{
+background: url('./src/assets/images/hero2.jpg') no-repeat;
+background-size: cover;
+}
+
+.contact{
+    font-family: Poppins;
+}
+
+.contact .btn-submit {
+    background-color: #c6e048;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+
+.contact .btn-submit:hover {
+    background-color: #b4d43b;
+}
+.contact .text{
+    line-height: 40px;
+    /* padding: 0px px; */
+}
+
+.footer{
+    background: linear-gradient(98.3deg, rgb(0, 0, 0) 10.6%, rgb(59, 52, 52) 97.7%);
+    color: #fff;
+    text-align: center;
+    font-weight: 600;
+  }
+
+
+@media only screen and (min-width:768px){
+      .right{
+        padding-top: 150px;
+    }
+    .element_inner_2{
+        padding-top: 120px;
+    }
+    
+  }
+
+@media only screen and (max-width:768px){
+    .searchBar input{
+        padding: 2px;
+    }
+
+    .searchBar button{
+        padding: 2px;
+    }
+    
+}
